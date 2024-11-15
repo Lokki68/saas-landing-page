@@ -1,8 +1,10 @@
+import Download from "./sections/Download";
 import Faq from "./sections/Faq.jsx";
 import Features from "./sections/Features.jsx";
 import Header from "./sections/Header.jsx";
 import Hero from "./sections/Hero.jsx";
 import Pricing from "./sections/Pricing.jsx";
+import Testimonials from "./sections/Testimonials.jsx";
 
 export default function App() {
   return (
@@ -12,6 +14,8 @@ export default function App() {
       <Features />
       <Pricing />
       <Faq />
+      <Testimonials />
+      <Download />
     </main>
   );
 }
